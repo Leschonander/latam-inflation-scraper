@@ -134,27 +134,27 @@ def get_colombia_inflation_stats():
 
 def load_peru_inflation_stats():
     data = get_peru_inflation_stats()
-    data.to_csv("Dad_Peru_Inflation.csv", encoding='utf-8', index=False)
+    data.to_csv("Peru_Inflation.csv", encoding='utf-8', index=False)
 
 def load_argentina_inflation_stats():
     data = get_argentina_inflation_stats()
-    data.to_csv("Dad_Argentina_Inflation.csv", encoding='utf-8', index=False)
+    data.to_csv("Argentina_Inflation.csv", encoding='utf-8', index=False)
 
 def load_brazil_inflation_stats():
     data = get_brazil_inflation_stats()
-    data.to_csv("Dad_Brazil_Inflation.csv", encoding='utf-8', index=False)
+    data.to_csv("Brazil_Inflation.csv", encoding='utf-8', index=False)
 
 def load_chile_inflation_stats():
     data = get_chile_inflation_stats()
-    data.to_csv("Dad_Chile_Inflation.csv", encoding='utf-8', index=False)
+    data.to_csv("Chile_Inflation.csv", encoding='utf-8', index=False)
 
 def load_mexico_inflation_stats():
     data = get_mexico_inflation_stats()
-    data.to_csv("Dad_Mexico_Inflation.csv", encoding='utf-8', index=False)
+    data.to_csv("Mexico_Inflation.csv", encoding='utf-8', index=False)
 
 def load_colombia_inflation_stats():
     data = get_colombia_inflation_stats()
-    data.to_csv("Dad_Colombia_Inflation.csv", encoding='utf-8', index=False)
+    data.to_csv("Colombia_Inflation.csv", encoding='utf-8', index=False)
 
 
 
